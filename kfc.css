@@ -1,0 +1,114 @@
+nav{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+body{
+    background-image: url("bg.jpg");
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    text-align: center;
+    color:goldenrod;
+
+}
+a{
+    color:red;
+    padding: 80px;
+    text-decoration: none;
+    text-size-adjust: 500px;
+}
+header{
+    display: flex;
+    text-align: center;
+}
+p{
+    color:orangered;
+}
+marquee{
+    color: aqua;
+}
+.grid{
+    display: grid;
+    text-align: center;
+    background-color: rgb(red, green, blue);
+    grid-template-columns:auto auto auto ;
+    width: 100%;
+    height: 600px;
+    padding: 100px;
+
+    gap: 20px;
+}
+.grid-item1,.grid-item2,.grid-item3,.grid-item4,.grid-item5,.grid-item6{
+    background-color: aliceblue;
+    border: 1px solid black;
+    padding: 30px;
+    text-align: center;
+    font-size: 10px;
+    height: 250px;
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+} 
+button{
+    color: white;
+            background-color: black;
+           
+        }
+        button:hover{
+            background-color: aqua;
+        }
+        .grid-item7 ,.grid-item8{
+            background-color: maroon;
+            border: 1px solid black;
+            padding: 30px;
+            text-align: center;
+            font-size: 10px;
+            height: 250px;
+            width: 300px;
+            border-radius: 20px;
+            text-align: center;
+        }
+        .contact .row form .inputBox{
+            display: flex;
+            align-items: center;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            background:var(--bg);
+            border:var(--border);
+            font-family:'Times New Roman', Times, serif;
+        }
+        
+        .gridiiii{
+    
+            display: grid;
+            grid-template-rows: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding-top: 30px;
+            gap: 20px;
+        
+        }
+        .itemp,.itemq,.itemr,.itemo{
+            background-color:e;
+            width: 45px;
+            height: 45px;
+            border-radius: 70px;
+            
+        }
+        .mg{
+            border-radius: 50%;
+            padding:3px;
+            margin-left: -10px;
+        }
+        #carousel {
+            width: 100%;
+            height:700px;
+            background-color: #ff0000;
+            overflow: auto auto;
+            white-space: nowrap;
+        }
+        #carousel .slide {
+            display: inline-block;
+        }
